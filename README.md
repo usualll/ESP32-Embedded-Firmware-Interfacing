@@ -3,7 +3,6 @@
 ## Technical Overview
 This repository contains the bare-metal embedded C++ firmware developed to interface an ESP32 microcontroller with an HC-SR04 ultrasonic transducer. The project demonstrates low-level peripheral configuration, hardware timing analysis, and real-time sensor data parsing.
 
-Establishing competency in bare-metal microcontroller firmware bridges the gap between high-level logic design (Verilog/HDL) and the physical silicon level, establishing a complete full-stack hardware engineering profile.
 
 ## Engineering Competencies
 * **Microcontroller Architecture:** Peripheral register mapping and GPIO configuration on the ESP32 platform.
@@ -26,6 +25,3 @@ The factor of 2 accounts for the bidirectional path (round-trip) of the acoustic
 <img width="958" height="802" alt="326" src="https://github.com/user-attachments/assets/120f0103-9afc-4700-baa1-368adc9ada2f" />
 
 
-## Repository Structure
-* `/sketch.ino`: Main firmware application containing peripheral initializations and execution control loops.
-* `/simulation_proof.png`: High-resolution functional validation schematic and terminal telemetry.
